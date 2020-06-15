@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="baidu">
+	<test name="bd">
+		<classes>
+			<class name="com.test.baiduCase.LoginCase"/>
+			<class name = "com.test.baiduCase.SearchCase"/>
+		</classes>
+	</test>
+	<!-- 生成测试报告 -->
+	<listeners>
+		<listener
+			class-name="com.test.report.ExtentTestNGIReporterListener" />
+	</listeners>
+</suite>

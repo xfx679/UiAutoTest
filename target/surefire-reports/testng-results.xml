@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="baidu" duration-ms="66222" started-at="2020-06-10T06:36:33Z" finished-at="2020-06-10T06:37:39Z">
+    <groups>
+    </groups>
+    <test name="bd" duration-ms="66222" started-at="2020-06-10T06:36:33Z" finished-at="2020-06-10T06:37:39Z">
+      <class name="com.test.baiduCase.LoginCase">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.baiduCase.LoginCase@97e1986]" name="login" duration-ms="21437" started-at="2020-06-10T14:36:33Z" finished-at="2020-06-10T14:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.test.baiduCase.LoginCase -->
+      <class name="com.test.baiduCase.SearchCase">
+        <test-method status="PASS" signature="serach()[pri:0, instance:com.test.baiduCase.SearchCase@7f560810]" name="serach" duration-ms="44769" started-at="2020-06-10T14:36:54Z" finished-at="2020-06-10T14:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serach -->
+      </class> <!-- com.test.baiduCase.SearchCase -->
+    </test> <!-- bd -->
+  </suite> <!-- baidu -->
+</testng-results>
