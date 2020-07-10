@@ -2,8 +2,10 @@ package com.test.base;
 
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class Base {
 
@@ -50,5 +52,11 @@ public class Base {
 		driver.get(url);
 		sleep(2000);
 		return driver;
+	}
+	
+	//鼠标悬停
+	public void hover(WebDriver deiver,WebElement xpath) {
+		Actions action = new Actions(deiver);
+		action.moveToElement(xpath).perform();;
 	}
 }
