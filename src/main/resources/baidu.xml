@@ -3,8 +3,8 @@
 <suite name="baidu">
 	<test name="bd">
 		<classes>
-			<!-- <class name="com.test.baiduCase.LoginCase"/>
-			<class name = "com.test.baiduCase.SearchCase"/>--> -->
+			<class name="com.test.baiduCase.LoginCase"/>
+			<class name = "com.test.baiduCase.SearchCase"/>
 			<class name = "com.test.baiduCase.SettingsCase"/>
 		</classes>
 	</test>
